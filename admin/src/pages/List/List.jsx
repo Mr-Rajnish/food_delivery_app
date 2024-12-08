@@ -6,7 +6,7 @@ import { useEffect,useState} from 'react'
 const List = () => {
 
   const[list,setList]=useState([]);
- const url='http://localhost:4000'
+ const url='https://food-delivery-backend-grcm.onrender.com'
 
   const fetchList=async()=>{
     const response=await axios.get(`${url}/api/food/list`);
