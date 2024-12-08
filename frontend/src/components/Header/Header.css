@@ -1,0 +1,156 @@
+.header{
+    margin-top: 30px;
+     height: 80vh;
+    width: 80vw; 
+ 
+} 
+
+.header-image{
+    height:70vh;
+    width:80vw;
+    margin-left:4.5rem;
+}
+
+.header-contents{ 
+    position: absolute;   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw; 
+    max-width: 50%; 
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+  
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+}
+
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+}
+
+.header-contents button:hover{
+    background-color: black;
+    color: rgb(191, 55, 107) ;
+}
+
+@media (max-width:1300px){
+ .header{
+    height: 80vh;
+    width: 80vw;
+ }
+ .header-image{
+    height:70vh; 
+    width:80vw;
+    margin-left:4.5rem;
+}
+
+} 
+
+@media (max-width:1150px){
+    .header{
+        height: 75vh;
+        
+    }
+    .header-image{
+        height:65vh;
+        
+        margin-left:4.1rem;
+        margin-bottom: 30px;
+    }
+   
+   } 
+
+@media (max-width:1050px){
+    .header{
+        height: 70vh; 
+    }
+    .header-image{
+        height:62vh;
+        margin-left:3.6rem;
+        margin-bottom: 60px;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:900px){
+    .header{
+        height: 65vh;
+        margin-bottom: 20px;
+    }
+    .header-image{
+        height:56vh;
+        
+        margin-left:3rem;
+        margin-bottom: 5.3rem;
+    }
+   
+   } 
+
+@media (max-width:750px){
+    
+    .header{
+        height: 58vh;
+        margin-bottom: 20px;
+    }
+    .header-image{
+        height:48vh;
+        
+        margin-left:2.5rem;
+        margin-bottom: 8.5rem;
+    }
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}   
+
+@media (max-width:600px){
+    .header{
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .header-image{
+        height:40vh;
+        
+        margin-left:1.7rem;
+        margin-bottom: 13rem;
+    }
+   
+   } 
+
+   @media (max-width:450px){
+    .header{
+        height: 40vh;
+        margin-bottom: 20px;
+    }
+    .header-image{
+        height:30vh;
+        
+        margin-left:1.1rem;
+        margin-bottom: 17rem;
+    }
+   
+   } 
