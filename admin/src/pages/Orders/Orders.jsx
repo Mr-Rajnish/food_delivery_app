@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import axios from "axios"
 import { assets } from '../../../../frontend/src/assets/assets';
 const Orders = () => {
-   const url='http://localhost:4000';
+   const url='https://food-delivery-backend-grcm.onrender.com';
   const [orders,setOrders]=useState([]);
   const fetchAllOrders = async () => {
     try {
